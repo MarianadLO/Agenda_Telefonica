@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #e7e7e7;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{ /*para centralizar o conteudo e fazer que a largura máxima de tudo seja no máximo de 960px*/
+    width: 80%;
+    height: 80vh;
+    display: flex;
+}
+
+.registre-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registre-button button{
+    border: none;
+    background-color: #655ef5;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 4.7vh;
+}
+
+.registre-button button:hover{
+    background-color: #6b63ffc3;
+}
+
+.registre-button button a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+.form-image{
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 8rem;
+    margin-bottom: 40px;
+}
+
+.form-image img{
+    width: 12rem;
+}
+
+header h1{
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 70px;
+    padding-bottom: 3rem;
+    color: #524cc2;
+}
+
+.form{
+    margin: auto;
+    width: 70%;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+#input{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    gap: 2rem;
+    margin-bottom: 56px;
+    align-items: center;
+    padding-left: 1.3rem;
+}
+
+.input-number{
+    justify-content: center;
+    border: none;
+}
+
+.input-number input{
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #00000092;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    border: none;
+}
+
+.input-number input:hover{
+    background-color: #cac8c873;
+}
+
+.input-number input:focus-visible{ /*mudar a cor da borda*/
+    outline: 1px solid #6b63ffcc;
+}
+
+.input-number label{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000000c0;
+}
+
+.input-number::placeholder{ /*cor das palavras do placeholder*/
+    color: #000000be;
+}
+
+
+table{ /*tirar espaçmento que fica entre as células das tabelas*/
+    width: 100%;
+    margin-top: 2rem;
+}
+
+th, td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px;
+    align-items: center;
+}
+
+table th{
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.512);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px 40px;
+}
+
+tbody td{
+    overflow-x:auto; 
+}
+
+.registre-button button{
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}

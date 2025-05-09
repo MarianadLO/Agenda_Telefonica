@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda telefônica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="form-image">
+            <img src="./images/undraw_phone-call_ov3z (1).svg" alt="Ilustração de uma ligação telefônica">
+        </div>
+
+        <div class="form">
+            <header>
+                <h1>Sua agenda telefônica</h1>
+            </header> 
+
+            <form id="input">
+                <div class="input-number">
+                    <label for="nome-telefonico">Nome</label>
+                    <input type="text" name="nameTel" id="nome-telefonico" placeholder="Ex.: Sr. Carlos">
+                </div>
+                <div class="input-number">
+                    <label for="numero-telefonico">Digite o telefone</label>
+                    <input type="tel" name="numTel" id="numero-telefonico" placeholder="xx xxxxx-xxxx">
+                </div>
+                <div class="registre-button">
+                    <button type="submit">Adicionar número</button>
+                </div>
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
