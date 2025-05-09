@@ -14,8 +14,8 @@ function addLinha(){
 
 
     let linha = '<tr>'
-    linha += `<td>${inputNome.value}<td>`
-    linha += `<td>${inputTel.value}<td>`
+    linha += `<td>${inputNome.value}</td>`
+    linha += `<td>${inputTel.value}</td>`
     linha += '<tr>'
 
     linhas += linha
